@@ -1,0 +1,4 @@
+timestamp,source_ip,dest_ip,user,event_type,severity,message
+2025-11-09T11:05:00,10.10.10.5,10.0.0.12,john,process_create,low,"Process cmd.exe started by john"
+2025-11-09T11:06:10,10.10.10.5,10.0.0.12,john,process_create,low,"Process powershell.exe started by john"
+2025-11-09T11:10:00,203.0.113.9,10.0.0.12,,port_scan,medium,"Multiple ports scanned from 203.0.113.9"
